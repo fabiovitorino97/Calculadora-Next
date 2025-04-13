@@ -1,0 +1,73 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.calculator {
+  display: grid;
+  gap: 8px;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: rgb(224, 224, 224);
+  border: 1px solid #202020;
+  box-shadow: -5px 5px 0 #222, -10px 9px 0 hsl(0, 0%, 0%);
+}
+
+.display {
+  width: 350px;
+  padding: 10px;
+  border: 1px solid #646464;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-align: right;
+  font-size: 24px;
+  background-color: rgb(138, 240, 236);
+  box-shadow: inset -2.5px 3px 0 #222;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Define 4 colunas de tamanho igual */
+  gap: 10px; /* Espaçamento entre os botões */
+  padding: 10px;
+  font-size: 18px;
+}
+
+.button {
+  width: 100%;
+  padding: 15px;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid #555555;
+  border-radius: 8px;
+  background-color: rgb(194, 194, 194);
+  box-shadow: -2px 3px 0 #222, -3px 5px 0 hsl(0, 0%, 0%);
+  transition: background-color 0.3s;
+}
+
+
+.button:hover {
+  background-color: rgb(170, 170, 170);
+}
+
+.button:active {
+  background-color: rgb(150, 150, 150);
+  box-shadow: inset -4px 4px 0 #222;
+}
+
+.button.operator {
+  background-color: rgb(136, 136, 136);
+}
+
+.button.equal {
+  background-color: rgb(46, 245, 39);
+}
+
+.button.function {
+  background-color: rgb(255, 75, 75);
+}

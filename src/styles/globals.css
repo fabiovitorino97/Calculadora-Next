@@ -1,0 +1,56 @@
+/* Global styles for the Next.js calculator application */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #4a4e49, #080404);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  color: #333;
+}
+
+.calculator {
+  display: grid;
+  gap: 10px;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #e0e0e0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.display {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #646464;
+  border-radius: 8px;
+  text-align: right;
+  font-size: 24px;
+  background-color: #8af0ec;
+}
+
+.button {
+  padding: 15px;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid #555;
+  border-radius: 8px;
+  background-color: #c2c2c2;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #b0b0b0;
+}
+
+.button:active {
+  background-color: #a0a0a0;
+}
