@@ -2,6 +2,8 @@
 
 Esta é uma aplicação de calculadora simples construída usando Next.js. O projeto demonstra o uso de componentes funcionais, funções utilitárias para operações matemáticas e estilização personalizada.
 
+Você pode acessar e testar o projeto aqui: https://fabiovitorino97.github.io/Calculadora-Next/
+
 ## Estrutura do Projeto
 nextjs-calculator
 ├── public
